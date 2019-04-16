@@ -1,0 +1,817 @@
+body{
+
+	background-color: #2a2a44;
+	overflow-y: hidden;
+
+}
+
+#images1{
+
+	width: 100%;
+	height: 100%;
+}
+
+#conteneur{
+
+	height: 100vh;
+	width: 10930px;
+	display: flex;
+
+}
+
+section{
+
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+#accueil{
+
+	display: block;
+	background-image: url(../images/fondaccueil6.png)
+}
+
+h1{
+
+	width: 100vw;
+	text-align: center;
+	font-size: 8em;
+	display: block;
+	position: relative;
+	top: 9vw;
+	color: white;
+	font-family: 'Passion One', cursive;
+
+}
+
+h2{
+
+	
+	text-align: center;
+	font-size: 1.7em;
+	display: block;
+	position: relative;
+	top: 12.5vw;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+
+
+#fleche{
+
+	width: 70px;
+	height: 170px;
+	margin: 180px auto;
+	background-image: url(../images/flechee1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	left: 600px;
+}
+
+#fleche:hover{
+
+
+	background-image: url(../images/flechee2.png);
+	transition: 0.3s;
+}
+
+#bonhomme1{
+
+	width: 80%;
+	margin-left: 10px;
+}
+
+#bonhomme2{
+
+	width: 80%;
+	margin-left: 30px;
+	margin-top: -40px;
+}
+
+aside{
+
+	height: 100vh;
+	width: 30%;
+	background-image: url(../images/etoilefond3.png);
+}
+
+article{
+
+	height: 100vh;
+	width: 60%;
+	background-image: url(../images/etoilefond3.png);
+}
+
+.suivant{
+	
+	height: 100vh;
+	width: 10%;
+	background-image: url(../images/flechee1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+
+}
+
+.suivant:hover{
+
+	background-image: url(../images/flechee2.png);
+	transition: 0.3s;
+	
+
+}
+
+#fleche2{
+
+	width: 70px;
+	height: 170px;
+	margin: 180px auto;
+	background-image: url(../images/flechee1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	left: 600px;
+}
+
+#bulle1{
+
+	color: white;
+	font-size: 1.3em;
+	position: relative;
+	top: 100px;
+	left: 60px;
+	width: 300px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe1{
+
+width: 400px;
+height: 300px;
+display: inline-block;
+background-image: url(../images/meteorite1.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+#bulle2{
+
+	color: white;
+	font-size: 1.4em;
+	position: relative;
+	top: 110px;
+	left: 50px;
+	width: 300px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe2{
+
+width: 400px;
+height: 370px;
+display: inline-block;
+background-image: url(../images/meteorite2.png);
+background-repeat: no-repeat;
+background-position: top;
+background-size: 90%;
+
+
+
+
+}
+
+#bulle3{
+
+	color: white;
+	font-size: 1.3em;
+	position: relative;
+	top: 85px;
+	left: 210px;
+	width: 260px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe3{
+width: 700px;
+height: 250px;
+margin-top: -70px;
+background-image: url(../images/meteorite3.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#bulle4{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 70px;
+	left: 10px;
+	width: 260px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe4{
+width: 280px;
+height: 230px;
+margin-top: 10px;
+background-size: 89%;
+background-position: center;
+background-image: url(../images/meteorite4.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle5{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 80px;
+	left: 14px;
+	width: 260px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe5{
+width: 290px;
+height: 230px;
+margin-top: -60px;
+margin-left: 145px;
+background-size: 83%;
+background-image: url(../images/meteorite5.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle6{
+
+	color: #ba876a;
+	font-size: 3.2em;
+	position: relative;
+	top: 160px;
+	left: 600px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+
+}
+
+#paragraphe6{
+width: 1500px;
+height: 690px;
+margin-top: -70px;
+margin-left: -200px;
+background-size: 75%;
+background-image: url(../images/meteoritehippie4.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+
+#hippie2{
+
+	background-image: url(../images/etoilefond3.png);
+}
+
+#paragraphe7{
+width: 1500px;
+height: 690px;
+margin-top: -85px;
+margin-left: -70px;
+background-size: 100%;
+background-image: url(../images/liaison2hippie5.png);
+background-repeat: no-repeat;
+background-position: left;
+background-position: relative;
+}
+
+
+#bulle8{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 140px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe8{
+width: 500px;
+height: 500px;
+margin-top:  -65px;
+margin-left: 130px;
+background-size: 50%;
+background-image: url(../images/bullehippie1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle9{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 200px;
+	left: 100px;
+	width: 300px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe9{
+width: 500px;
+height: 500px;
+margin-top:  -130px;
+margin-left: 130px;
+background-size: 65%;
+background-image: url(../images/bulleLSD5.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle10{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 126px;
+	width: 240px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe10{
+width: 500px;
+height: 500px;
+margin-top: -870px;
+margin-left: 580px;
+background-size: 50%;
+background-image: url(../images/bullehippie3.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle11{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 140px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe11{
+width: 500px;
+height: 500px;
+margin-top: -380px;
+margin-left: 820px;
+background-size: 45%;
+background-image: url(../images/bullehippie4.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle12{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 220px;
+	left: 140px;
+	width: 220px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe12{
+width: 500px;
+height: 500px;
+margin-top: -260px;
+margin-left: 620px;
+background-size: 50%;
+background-image: url(../images/bullehippie5.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#bonhomme3{
+
+	width: 50%;
+	margin-left: 30px;
+	margin-top: 350px;
+}
+
+#bulle13{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 220px;
+	left: 150px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe13{
+width: 500px;
+height: 500px;
+margin-top: -550px;
+margin-left: 0px;
+background-size: 50%;
+background-image: url(../images/bulleLSD1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+#bulle14{
+
+	color: #755b48;
+	font-size: 3.2em;
+	position: relative;
+	top: 170px;
+	left: 430px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+
+}
+
+#paragraphe14{
+width: 1500px;
+height: 690px;
+margin-top: -90px;
+margin-left: -300px;
+background-size: 75%;
+background-image: url(../images/meteoriteLSD3.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+
+
+#bulle15{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 140px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe15{
+width: 500px;
+height: 500px;
+margin-top: -750px;
+margin-left: 350px;
+background-size: 45%;
+background-image: url(../images/bulleLSD2.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle16{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 240px;
+	left: 140px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe16{
+width: 500px;
+height: 500px;
+margin-top: -98px;
+margin-left: 420px;
+background-size: 45%;
+background-image: url(../images/bulleLSD3.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#LSD2{
+
+	background-image: url(../images/etoilefond3.png);
+}
+
+#paragraphe17{
+width: 1500px;
+height: 690px;
+margin-top: -85px;
+margin-left: -5px;
+background-size: 90%;
+background-image: url(../images/liaisonLSD3.png);
+background-repeat: no-repeat;
+background-position: left;
+background-position: relative;
+}
+
+
+#bulle18{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 140px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe18{
+width: 500px;
+height: 500px;
+margin-top:  -20px;
+margin-left: 50px;
+background-size: 50%;
+background-image: url(../images/bullehippie1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bulle19{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 147px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe19{
+width: 500px;
+height: 500px;
+margin-top: -185px;
+margin-left: 115px;
+background-size: 50%;
+background-image: url(../images/bulleLSD4.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#bulle20{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 140px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe20{
+width: 500px;
+height: 500px;
+margin-top: -820px;
+margin-left: 400px;
+background-size: 50%;
+background-image: url(../images/bulleLSD5.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#bonhomme4{
+
+	width: 50%;
+	margin-left: 30px;
+	margin-top: 350px;
+}
+
+
+#bulle21{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 220px;
+	left: 150px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe21{
+width: 500px;
+height: 500px;
+margin-top: -670px;
+margin-left: -45px;
+background-size: 50%;
+background-image: url(../images/bulleLSD1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+
+#bulle22{
+
+	color: #9e5043;
+	font-size: 3.2em;
+	position: relative;
+	top: 220px;
+	left: 150px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+
+}
+
+#paragraphe22{
+width: 1500px;
+height: 690px;
+margin-top: -70px;
+margin-left: -200px;
+background-size: 75%;
+background-image: url(../images/meteoriteutopie.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+
+
+#bulle23{
+
+	color: white;
+	font-size: 1em;
+	position: relative;
+	top: 205px;
+	left: 140px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe23{
+width: 500px;
+height: 500px;
+margin-top: -390px;
+margin-left: 350px;
+background-size: 65%;
+background-image: url(../images/bulleutopie1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#FOND{
+
+
+	background-image: url(../images/FINfond10.png);
+	background-size: 100%;
+	width: 1400px
+}
+
+
+#bonhomme5{
+
+	
+	margin-left: 800px;
+	margin-top: 260px;
+}
+
+
+#bulle24{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 205px;
+	left: 150px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe24{
+width: 500px;
+height: 500px;
+margin-top: -670px;
+margin-left: -45px;
+background-size: 65%;
+background-image: url(../images/bullefin1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#bulle25{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 205px;
+	left: 150px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe25{
+width: 500px;
+height: 500px;
+margin-top: -320px;
+margin-left: 320px;
+background-size: 65%;
+background-image: url(../images/bullefin2.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#bulle26{
+
+	color: white;
+	font-size: 1.1em;
+	position: relative;
+	top: 205px;
+	left: 150px;
+	width: 200px;
+	height: 130px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+#paragraphe26{
+width: 500px;
+height: 500px;
+margin-top: -590px;
+margin-left: 600px;
+background-size: 65%;
+background-image: url(../images/bullefin3.png);
+background-repeat: no-repeat;
+background-position: center;
+}
